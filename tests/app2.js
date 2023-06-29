@@ -25,6 +25,7 @@ var fe = function () {
 };
 var fe2 = function e() {
   //function expression with the name;
+  x = "hello"; //global var!!!
 };
 fe();
-// function declaration is hoisted, function expression is hoisted;
+// function declaration is hoisted, function expression is not hoisted;
