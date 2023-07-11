@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="./core5.js"></script>
+    <p id="subtask3"></p>
+    <button onclick="stopTimer()">Stop the timer</button>
+    <script>
+      const myInterval = setInterval(timer, 1000);
+
+      function timer() {
+        const date = new Date();
+        document.getElementById("subtask3").innerHTML =
+          date.toLocaleTimeString();
+      }
+
+      function stopTimer() {
+        clearInterval(myInterval);
+      }
+    </script>
+  </body>
+</html>
