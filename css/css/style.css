@@ -1,0 +1,72 @@
+/* 1.Write a CSS selector to target all <p> elements with 
+a class of "highlight" and give them a background color of yellow. */
+p.highlight {
+  background-color: yellow;
+}
+/* 2.Set the text color of all headings (<h1> to <h6>) to red. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: red;
+}
+/* 3.Set the font size of all paragraphs (<p> elements) to 14 pixels 
+and make the font size of paragraphs inside a <div> element with 
+a class of "special" to 16 pixels. */
+p {
+  font-size: 14px;
+}
+div p.special {
+  font-size: 16px;
+}
+/* 4.Style all <h1> elements with a font family of "Arial", font size 
+of 24 pixels, and text color of blue. */
+h1 {
+  font-family: Arial;
+  font-size: 24px;
+  color: blue;
+}
+/* 5.Add a border, padding, and margin to a <div> element. */
+div#task5 {
+  padding: 30px;
+  border: 20px;
+  margin: 15px;
+}
+/* 6.Create a layout using CSS Grid or Flexbox with a header, sidebar, 
+and main content area. */
+.item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: sidebar;
+}
+.item3 {
+  grid-area: main;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "sidebar sidebar main main main main";
+  gap: 10px;
+  background-color: #c9e1f5;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+/* 7.Float an image to the left and position a caption below it. */
+h2.caption {
+  color: #1d00ff;
+  padding-right: 20px;
+}
+div.wrapper {
+  float: left;
+}
