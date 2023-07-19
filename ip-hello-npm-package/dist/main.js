@@ -1,0 +1,1 @@
+(()=>{var r={138:r=>{r.exports=function(){return"hello from ip-hello-npm-package!"}}},e={};!function o(t){var n=e[t];if(void 0!==n)return n.exports;var p=e[t]={exports:{}};return r[t](p,p.exports,o),p.exports}(138)})();
