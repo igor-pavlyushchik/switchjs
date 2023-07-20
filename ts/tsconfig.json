@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "CommonJS"
+    //"strictNullChecks": true
+    //"strict": true
+  },
+  "include": ["src/**/*"]
+}
